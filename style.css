@@ -282,7 +282,7 @@ header a {
     height: 320px;
     background: rgb(25, 25, 25);
     background-image:linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.021)),
-    url(/image/Grid_3.png);
+    url(/Portfolio/image/Grid_3.png);
     background-size: cover;
     border-radius: 20px;
     margin-right: 200px;
@@ -293,7 +293,7 @@ header a {
     height: 320px;
     background: rgb(25, 25, 25);
     background-image:linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.021)),
-    url(/image/Grid_3.png);
+    url(/Portfolio/image/Grid_3.png);
     background-size: cover;
     border-radius: 20px
 }
