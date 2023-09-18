@@ -167,7 +167,7 @@ header a {
 .about{
     max-width: var(--main-width);
     margin: 0px auto;
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
 }
 .about__images img{
