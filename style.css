@@ -167,7 +167,7 @@ header a {
 .about{
     max-width: var(--main-width);
     margin: 0px auto;
-    margin-top: 200px;
+    margin-top: 140px;
     display: flex;
 }
 .about__images img{
@@ -175,10 +175,10 @@ header a {
     justify-self: center;
     border-radius: 15px;
     background-size: cover;
-    box-shadow: inset 0 0 0 9px rgb(255 255 255/ 30%);
     order: 1;
     animation: img_animate 6s ease-in-out infinite 1s;
 }
+
 
 @keyframes img_animate {
     0%{
