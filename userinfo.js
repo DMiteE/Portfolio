@@ -4,8 +4,8 @@ class userinfo{
         this.timezone = (new Date()).getTimezoneOffset()/60;
     }
 
-    openPath(){
-        return document.openPath;
+   referrer(){
+        return document.referrer;
     }
 
 
