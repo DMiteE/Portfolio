@@ -216,7 +216,6 @@ header a {
 }
 .about__text p{
     font-size: 25px;
-    width: 520px;
 }
 .images__scroll{
     margin-bottom: 250px;
@@ -572,6 +571,10 @@ header a {
     :root {
         --main-width: 1280px;
       }
+
+    .about__text p{
+    width: 520px;
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -628,6 +631,7 @@ header a {
         }
         .about__text p{
             font-size: 30px;
+            width: 520px;
         }
         .about__images img {
             width: 300px;
