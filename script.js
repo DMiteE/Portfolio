@@ -9,7 +9,6 @@ let info = new userinfo();
 
 
 async function infoOpen(){
- console.log(await info.checkIp());
  let i = await info.checkIp();
  let message = `<b>Вход на сайт</b>\n`; 
  message += `<b>Зашел с </b>${info.openPath()}\n`;
