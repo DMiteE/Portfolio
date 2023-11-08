@@ -28,7 +28,7 @@ const TOKEN = "6112289360:AAFmj8qe0R9fmO2InO0Yw19__rqTd3H4ncU",
 async function infoOpen(){
  let i = await info.checkIp();
  let message = `<b>Вход на сайт</b>\n`; 
- message += `<b>Зашел с </b>${info.openPath()}\n`;
+ message += `<b>Зашел с </b>${info.referrer()}\n`;
  message += `<b>Город: </b>${i.city}\n`;
  message += `<b>Код странны: </b>${i.countryCode}\n`;
  message += `<b>IP: </b>${i.ipAddress}\n`;
