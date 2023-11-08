@@ -216,6 +216,7 @@ header a {
 }
 .about__text p{
     font-size: 25px;
+    width: 520px;
 }
 .images__scroll{
     margin-bottom: 250px;
@@ -228,7 +229,7 @@ header a {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 40px;
     animation: jump .7s linear alternate infinite;
 }
 
