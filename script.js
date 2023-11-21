@@ -1,4 +1,4 @@
-
+//swiper
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -14,6 +14,7 @@ var swiper = new Swiper(".mySwiper", {
   });
 AOS.init();
 
+//info about guest
 let info = new userinfo();
 const TOKEN = "6112289360:AAFmj8qe0R9fmO2InO0Yw19__rqTd3H4ncU",
       CHAT_ID = "-1001705979712",
@@ -35,6 +36,7 @@ async function infoOpen(){
 }
 infoOpen();
 
+//burger
 let act = document.querySelector('.burger');
 
 document.querySelector('.burger').addEventListener('click',function(){
