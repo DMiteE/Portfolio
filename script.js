@@ -1,3 +1,18 @@
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+AOS.init();
+
 let info = new userinfo();
 const TOKEN = "6112289360:AAFmj8qe0R9fmO2InO0Yw19__rqTd3H4ncU",
       CHAT_ID = "-1001705979712",
@@ -27,20 +42,7 @@ document.querySelector('.burger').addEventListener('click',function(){
   document.querySelector('.h_ul').classList.toggle('open');
   document.querySelector('.about').classList.toggle('top__burger');
 })
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-AOS.init();
+
 
 
 
