@@ -5,6 +5,9 @@ document.querySelector('.burger').addEventListener('click',function(){
   document.querySelector('.nav').classList.toggle('open');
   document.querySelector('.h_ul').classList.toggle('open');
   document.querySelector('.about').classList.toggle('top__burger');
+  document.querySelector('.stack__container').classList.toggle('top__burger');
+  document.querySelector('.images__scroll').classList.toggle('top__burger');
+  
 })
 
 var swiper = new Swiper(".mySwiper", {
