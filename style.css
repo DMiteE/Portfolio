@@ -278,7 +278,7 @@ header a {
 
 .stackcard__web{
     width: 500px;
-    height: 320px;
+    height: 350px;
     background: rgb(25, 25, 25);
     background-image:linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.021)),
     url(/Portfolio/image/Grid_3.png);
@@ -289,7 +289,7 @@ header a {
 
 .stackcard__other{
     width: 500px;
-    height: 320px;
+    height: 350px;
     background: rgb(25, 25, 25);
     background-image:linear-gradient(rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.021)),
     url(/Portfolio/image/Grid_3.png);
