@@ -179,7 +179,6 @@ header a {
     animation: img_animate 6s ease-in-out infinite 1s;
 }
 
-
 @keyframes img_animate {
     0%{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
@@ -218,7 +217,7 @@ header a {
     font-size: 25px;
 }
 .images__scroll{
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .images__scroll img{
@@ -228,7 +227,7 @@ header a {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 10px;
     animation: jump .7s linear alternate infinite;
 }
 
@@ -244,7 +243,7 @@ header a {
 }
 .top__burger {
     position: relative;
-    top: 400px;
+    top: 120px;
 }
 
 .stack{
@@ -341,7 +340,7 @@ header a {
 .work__container{
     max-width: var(--main-width);
     margin: 0px auto;
-    margin-top: 100px;
+    margin-top: 150px;
     display:flex;
     flex-direction: column
 
@@ -351,14 +350,13 @@ header a {
     margin-top: 30px;
     margin-bottom: 100px;
     margin-left: 60px;}
-    .card:nth-child(1) {
+   .card:nth-child(1) {
       --bi: repeating-linear-gradient(30deg, #111 0 0.25em, #333 0 1em);
     }
     .card:nth-child(2) {
       --bi: linear-gradient(#555 5em, #0000 3em),
         linear-gradient(60deg, #880e4f, #1a237e);
     }
-  
   
   .card {
     position: relative;
@@ -566,21 +564,11 @@ header a {
     font-size: 20px;
   }
 
-@media all and (min-width: 1280px) and (max-width: 2600px) { 
-
-    .about__text p{
-            width: 520px
-        }
-}
-
 
 @media all and (min-width: 1024px) and (max-width: 1280px) { 
     :root {
         --main-width: 1280px;
       }
-    .about__text p{
-            width: 520px
-        }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
