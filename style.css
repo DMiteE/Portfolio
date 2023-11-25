@@ -1007,3 +1007,250 @@ header a {
     }
 }
 
+@media all and (max-width: 320px) { 
+    :root {
+        --main-width: 480px;
+      }
+
+      .burger{
+        display: flex;
+      }
+      header h1{
+        display: none;
+      }
+      .nav{
+        display: none;
+        z-index: 50;
+        flex-direction: column;
+        position: fixed;
+        width: 120vw;
+        height: 100vh;
+        top: 0;
+        bottom: 0;
+        left: -60px;
+        right: 30px;
+        z-index: 50;
+        padding: 50px 40px;
+        background: #F3ECE9;
+        animation: burgerAnimation 0.4s;
+        margin-bottom: 500px;
+      }
+      .nav ul{
+        flex-direction: column;
+    
+      }
+      @keyframes burgerAnimation {
+        from{opacity: 0}
+        to {opacity: 1}
+      }
+    .about{
+    max-width: var(--main-width);
+    margin: 0px auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    }
+    .about__text {
+        display: inline;
+        margin: 0px 20px 0px 20px;
+    }
+    .about__text h1{
+        font-size: 35px;
+    }
+    .about__text p{
+        font-size: 20px;
+    }
+    .about__images img {
+        width: 200px;
+    }
+    .card__wrapper {
+        display: inline-flex;
+        position: relative;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+    }
+    .stackcard__web {
+        width: 250px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+    .stackcard__other {
+        width: 250px;
+        margin: 0px auto;
+    }
+    .stack__title h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .images__scroll {
+        margin-bottom: 100px;
+    }
+    .contact ul {
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .contact__text p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .card {
+        position: relative;
+        width: 300px;
+        height: 583px;
+        padding: 20px;
+        color: #fff;
+        transform: rotateY(30deg) rotateX(15deg);
+        transform-style: preserve-3d;
+        transition: transform 1s;
+    }
+    .card-container {
+        margin-left: 10px;
+    }
+    .card img {
+        width: 260px;
+        height: 150px;
+        object-fit: cover;
+        border: 2px solid white;
+        border-radius: 15px;
+        display: flex;
+        margin: 0px auto;
+    }
+    .button__card {
+        width: 260px;
+
+    }
+}
+
+@media all and (max-width: 200px) { 
+    :root {
+        --main-width: 150px;
+      }
+
+      .burger{
+        display: flex;
+      }
+      header h1{
+        display: none;
+      }
+      .nav{
+        display: none;
+        z-index: 50;
+        flex-direction: column;
+        position: fixed;
+        width: 120vw;
+        height: 100vh;
+        top: 0;
+        bottom: 0;
+        left: -60px;
+        right: 30px;
+        z-index: 50;
+        padding: 50px 40px;
+        background: #F3ECE9;
+        animation: burgerAnimation 0.4s;
+        margin-bottom: 500px;
+      }
+      .nav ul{
+        flex-direction: column;
+    
+      }
+      @keyframes burgerAnimation {
+        from{opacity: 0}
+        to {opacity: 1}
+      }
+    .about{
+    max-width: var(--main-width);
+    margin: 0px auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    }
+    .about__text {
+        display: inline;
+        margin: 0px 20px 0px 20px;
+    }
+    .about__text h1{
+        font-size: 10px;
+    }
+    .about__text p{
+        font-size: 10px;
+    }
+    .about__images img {
+        width: 50px;
+    }
+    .card__wrapper {
+        display: inline-flex;
+        position: relative;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+    }
+    .stackcard__web {
+        width: 250px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+    .stackcard__other {
+        width: 250px;
+        margin: 0px auto;
+    }
+    .stack__title h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .images__scroll {
+        margin-bottom: 100px;
+    }
+    .contact ul {
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .contact__text p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .card {
+        position: relative;
+        width: 300px;
+        height: 583px;
+        padding: 20px;
+        color: #fff;
+        transform: rotateY(30deg) rotateX(15deg);
+        transform-style: preserve-3d;
+        transition: transform 1s;
+    }
+    .card-container {
+        margin-left: 10px;
+    }
+    .card img {
+        width: 260px;
+        height: 150px;
+        object-fit: cover;
+        border: 2px solid white;
+        border-radius: 15px;
+        display: flex;
+        margin: 0px auto;
+    }
+    .button__card {
+        width: 260px;
+
+    }
+}
+
+
+
+
